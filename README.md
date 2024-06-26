@@ -1,4 +1,4 @@
-## Technologies
+## Tecnologias
 ***
 Lista de tecnologias usadas, es necesario contar con SQL Server y NodeJS:
 * [NodeJS](https://nodejs.org/en/) Version 20.15.0 
