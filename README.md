@@ -1,4 +1,4 @@
-Pasos para poder ejecutar la aplicación es necesario contar con SQL Server instalado y NodeJS
+# Pasos para poder ejecutar la aplicación es necesario contar con SQL Server instalado y NodeJS
 
 Configuracion del servidor
     1.- Crear una base de datos con el nombre que sea mas adecuado
