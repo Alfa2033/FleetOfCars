@@ -1,13 +1,18 @@
 # Pasos para poder ejecutar la aplicación 
 
-### Es necesario contar con SQL Server instalado y NodeJS
+## Technologies
+***
+Lista de tecnologias usadas, es necesario contar con SQL Server y NodeJS:
+* [NodeJS](https://nodejs.org/en/) Version 20.15.0 
+* [ReactJS](https://es.react.dev/): Version 18.3.1
+* [Vite](https://v4.vitejs.dev): Version 4
+* [SQL Server](https://www.microsoft.com/es-mx/sql-server/sql-server-2022): Version 2022
 
-### Configuracion del servidor
-
-    1. Crear una base de datos con el nombre que sea mas adecuado
-
-    2. Acceder a la ruta del server/src y crear un archivo .env con el nombre development.env, tomando en cuenta como ejemplo el example.env
-    3. Llenar las variables de entorno del archivo creado  
+## Configuracion del servidor
+***
+1. Crear una base de datos con el nombre que sea mas adecuado
+2. Acceder a la ruta del server/src y crear un archivo .env con el nombre development.env, tomando en cuenta como ejemplo el example.env
+3. Llenar las variables de entorno del archivo creado  
           ENVIRONMENT= Colocar el nombre del archivo (development)
           USER_SQL= Usuario con el que nos vamos a conectar a la base de datos 
           PASSWORD= Contraseña del usuario de la base de datos
