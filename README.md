@@ -1,4 +1,6 @@
-# Pasos para poder ejecutar la aplicación es necesario contar con SQL Server instalado y NodeJS
+# Pasos para poder ejecutar la aplicación 
+
+### Es necesario contar con SQL Server instalado y NodeJS
 
 Configuracion del servidor
     1.- Crear una base de datos con el nombre que sea mas adecuado
@@ -17,15 +19,15 @@ Configuracion del servidor
           SECRET_JWT_KEY= Cadena para poder cifrar los JWT (esta-es-una-cadena-de-ejemplo)
     4.- Una vez que se configuraron las variables de entorno regresar nuevamente al directorio de server (/server) a la altura de los package JSON
     5.- Ejeuctar los comandos
-          npm run migrations (ejecuta las migraciones de sequelize)
-          npm run set_seeders (ejecutas los seeders para la tabla de Status_Car)
-          npm run dev (ejecuta el servidor en modo de desarrollador)
+          $ npm run migrations (ejecuta las migraciones de sequelize)
+          $ npm run set_seeders (ejecutas los seeders para la tabla de Status_Car)
+          $ npm run dev (ejecuta el servidor en modo de desarrollador)
 
 Configuracion del frontend
     1.- Acceder a la ruta de /frontend
     2.- Ejecutar los comandos
-          npm install
-          npm run dev (inicia la aplicación en modo de desarrollador)
+          $ npm install
+          $ npm run dev (inicia la aplicación en modo de desarrollador)
 
           
 
