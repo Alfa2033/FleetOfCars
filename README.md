@@ -2,10 +2,12 @@
 
 ### Es necesario contar con SQL Server instalado y NodeJS
 
-Configuracion del servidor
-    1.- Crear una base de datos con el nombre que sea mas adecuado
-    2.- Acceder a la ruta del server/src y crear un archivo .env con el nombre development.env, tomando en cuenta como ejemplo el example.env
-    3.- Llenar las variables de entorno del archivo creado  
+### Configuracion del servidor
+
+    1. Crear una base de datos con el nombre que sea mas adecuado
+
+    2. Acceder a la ruta del server/src y crear un archivo .env con el nombre development.env, tomando en cuenta como ejemplo el example.env
+    3. Llenar las variables de entorno del archivo creado  
           ENVIRONMENT= Colocar el nombre del archivo (development)
           USER_SQL= Usuario con el que nos vamos a conectar a la base de datos 
           PASSWORD= Contraseña del usuario de la base de datos
