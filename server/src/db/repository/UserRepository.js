@@ -80,7 +80,8 @@ class UserRepository {
 
     const token = jwt.sign({
       user_id: userFind.id,
-      username: userFind.username
+      username: userFind.username,
+      creation: Date.now()
     }, SECRET_JWT_KEY, {
       algorithm: 'HS256',
       expiresIn: '5m'

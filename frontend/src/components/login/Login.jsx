@@ -28,7 +28,7 @@ const Login = () => {
 
             const tokenDecoded = Utils.DecodeJWT(register.Content)
             localStorage.setItem(ServerConstants.KEY_TOKEN, register.Content)
-            localStorage.setItem(ServerConstants.KEY_DATE_CREATION, Date.now())
+            localStorage.setItem(ServerConstants.KEY_DATE_CREATION, tokenDecoded.creation)
             localStorage.setItem(ServerConstants.KEY_USERNAME, tokenDecoded.username)
             navigate("/home");
         } catch (error) {

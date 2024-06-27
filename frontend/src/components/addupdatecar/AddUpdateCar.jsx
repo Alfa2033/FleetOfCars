@@ -110,7 +110,7 @@ const AddUpdate = ({ detail, isUpdate, callback }) => {
                             </div>
                             <div className='form-group'>
                                 <label htmlFor="txt_Year" className="font-weight-bold mr-2">Año: </label>
-                                <input id='txt_Year' className='form-control' type="text" autoComplete='off' value={year} onChange={(ev) => setYear(ev.target.value)} />
+                                <input id='txt_Year' className='form-control' type="text" autoComplete='off' maxLength={4} value={year} onChange={(ev) => setYear(ev.target.value)} />
                             </div>
                             <div className='form-group'>
                                 <label htmlFor="slc_State" className="font-weight-bold mr-2">Estado actual: </label>

@@ -4,7 +4,7 @@
   "description": "Servidor backend",
   "main": "src/index.js",
   "scripts": {
-    "dev": "set ENVIRONMENT=development&& node src/index.js",
+    "start": "set ENVIRONMENT=development&& node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrations": "set ENVIRONMENT=development&& npx sequelize-cli db:migrate",
     "undo-migrations": "set ENVIRONMENT=development&& npx sequelize-cli db:migrate:undo",

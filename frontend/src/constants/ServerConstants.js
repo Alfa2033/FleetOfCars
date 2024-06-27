@@ -15,7 +15,7 @@ class ServerConstants {
         'Content-Type': 'application/json'
     }
     static CODE_NOT_AUTHORIZE = 401
-    static MINUTES_EXPIRATION_TOKEN = 5
+    static MINUTES_EXPIRATION_TOKEN = 5 * 60 * 1000
 }
 
 export default ServerConstants
